@@ -114,7 +114,7 @@ export default {
       this.keyborad();
       this.timer = setInterval(() => {
         this.moveSnake(this.direction1, this.snake1, "Snake1");
-        // this.moveSnake(this.direction2, this.snake2, "Snake2");
+        this.moveSnake(this.direction2, this.snake2, "Snake2");
       }, 100);
     },
     pause() {
